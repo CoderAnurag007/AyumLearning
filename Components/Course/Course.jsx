@@ -143,40 +143,46 @@ const Course = () => {
             alt="hero"
             src="https://kyanon.digital/wp-content/uploads/2021/10/citizen-developer-la-gi-loi-ich-cua-citizen-development.jpg"
           />
-          <div
-            style={{
-              borderRadius: "12px",
-              backgroundColor: "rgba(14, 26, 47)",
-              border: "1px solid aqua",
-              width: "80%",
-            }}
-            className="text-center lg:w-2/3 w-full  p-4"
-          >
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              All About this Course
-            </h1>
-            <p className="leading-relaxed text-white mb-8">
-              This course duration is of 3 months and this will work as your
-              classes tution . Like fees will charge on monthly basis which is{" "}
-              <br />
-              <span className="text-yellow-300 font-bold">RS 500/month</span>.
-              So you are not bound to pay all at once. classes will be held on
-              Google meet , students require a Laptop but if you don't have you
-              can also connect with friends laptops . timings will be decided on
-              your guys demand we will make a poll on instagram and according to
-              result timing will be decided. if you have any doubt you can
-              directly connect with instructor anytime 24/7.
-            </p>
-            <div className="flex justify-center">
-              <button
-                className={`inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ${styles.registerbtn}`}
-              >
-                <a target={"_blank"} href="https://forms.gle/LQ4VEv8xs2pK24Eg9">
-                  Register Here!
-                </a>
-              </button>
+          {
+            <div
+              style={{
+                borderRadius: "12px",
+                backgroundColor: "rgba(14, 26, 47)",
+                border: "1px solid aqua",
+                width: "80%",
+              }}
+              className="text-center lg:w-2/3 w-full  p-4"
+            >
+              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                All About this Course
+              </h1>
+              <p className="leading-relaxed text-white mb-8">
+                This course duration is of 3 months and this will work as your
+                classes tution . Like fees will charge on monthly basis which is{" "}
+                <br />
+                <span className="text-yellow-300 font-bold">RS 500/month</span>.
+                So you are not bound to pay all at once. classes will be held on
+                Google meet , students require a Laptop but if you do not have
+                you can also connect with friends laptops . timings will be
+                decided on your guys demand we will make a poll on instagram and
+                according to result timing will be decided. if you have any
+                doubt you can directly connect with instructor anytime 24/7.
+              </p>
+              <div className="flex justify-center">
+                <button
+                  className={`inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg ${styles.registerbtn}`}
+                >
+                  <a
+                    rel="noreferrer"
+                    target={"_blank"}
+                    href="https://forms.gle/LQ4VEv8xs2pK24Eg9"
+                  >
+                    Register Here!
+                  </a>
+                </button>
+              </div>
             </div>
-          </div>
+          }
         </div>
       </section>
     </>

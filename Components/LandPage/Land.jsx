@@ -31,7 +31,11 @@ const Land = () => {
             <button
               className={` ${styles.registerbtn} inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg`}
             >
-              <a target={"_blank"} href="https://forms.gle/LQ4VEv8xs2pK24Eg9">
+              <a
+                rel="noreferrer"
+                target={"_blank"}
+                href="https://forms.gle/LQ4VEv8xs2pK24Eg9"
+              >
                 Register Here!
               </a>
             </button>{" "}

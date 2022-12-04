@@ -18,7 +18,7 @@ const Nav = () => {
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"></nav>
           <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-            <a href="https://ayum.in" target={"_blank"}>
+            <a rel="noreferrer" href="https://ayum.in" target={"_blank"}>
               {" "}
               Go To Ayum Health
             </a>
