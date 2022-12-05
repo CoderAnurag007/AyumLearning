@@ -7,7 +7,7 @@ const Nav = () => {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <Image
-              style={{ marginTop: "-5px" }}
+              style={{ marginTop: "-7px" }}
               width={100}
               height={40}
               src={`/ayumTranparent.png`}
