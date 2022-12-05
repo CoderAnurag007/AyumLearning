@@ -149,7 +149,7 @@ const Course = () => {
                 borderRadius: "12px",
                 backgroundColor: "rgba(14, 26, 47)",
                 border: "1px solid aqua",
-                width: "80%",
+                width: "95%",
               }}
               className="text-center lg:w-2/3 w-full  p-4"
             >
