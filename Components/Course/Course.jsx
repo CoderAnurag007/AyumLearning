@@ -160,10 +160,12 @@ const Course = () => {
                 This course duration is of 3 months and this will work as your
                 classes tution . Like fees will charge on monthly basis which is{" "}
                 <br />
-                <span className="text-yellow-300 font-bold">RS 500/month</span>.
-                So you are not bound to pay all at once. classes will be held on
-                Google meet , students require a Laptop but if you do not have
-                you can also connect with friends laptops . timings will be
+                <span className="text-yellow-300 font-bold">
+                  Lower than market rates
+                </span>
+                . So you are not bound to pay all at once. classes will be held
+                on Google meet , students require a Laptop but if you do not
+                have you can also connect with friends laptops . timings will be
                 decided on your guys demand we will make a poll on instagram and
                 according to result timing will be decided. if you have any
                 doubt you can directly connect with instructor anytime 24/7.
